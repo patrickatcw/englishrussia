@@ -1,0 +1,30 @@
+
+.container {
+	background-color: beige;
+	min-width: 80%;
+	min-height: 100%;
+	position: fixed;
+	top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+		}
+
+.header {
+	background-image: url("C:/projects/englishrussia/assets/images/headercolor.PNG");	
+		}
+
+.navbar {
+	background-color: maroon;
+	width: 100%;
+		}
+
+.footer {
+	background-image: url("C:/projects/englishrussia/assets/images/footer.PNG");
+	position: fixed;
+	width: 75%;
+	bottom: 0;
+		}
+
+
+
