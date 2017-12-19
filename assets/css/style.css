@@ -41,38 +41,50 @@
 
 .info {
 	margin-top: -120px;
-	margin-left: 925px;
+	margin-left: 940px;
 	}
 
 .rss {
-	margin-top: 50px;
-	margin-right: 30px;
+	margin-top: 15px;
+	margin-right: 80px;
 	padding: 2;
 	float: right;
 	}
 
 .email {
-	margin-top: 50px;
+	margin-top: 15px;
 	padding: 2;
 	float: right;
 	}
 
 .facebook {
-	margin-top: 50px;
+	margin-top: 15px;
 	padding: 2;
  	float: right;
 	}
 
 .twitter {
-	margin-top: 50px;
+	margin-top: 15px;
 	padding: 2;
 	float: right;
+	}
+
+.words {
+	color: yellow;
+	margin-top: 45px;
+	margin-left: 1000px;
+	}
+
+.date {
+	color: yellow;
+	margin-top: -4px;
+	margin-left: 1020px;
 	}
 
 .navbar {
 	background-color: maroon;
 	color: beige;
-	margin-top: 118px;
+	margin-top: 11px;
 	margin-left: -30px;
 	padding-top: 1px;
 	padding-bottom: 1px;
