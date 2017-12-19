@@ -11,18 +11,56 @@
 		}
 
 .header {
-	background-image: url("C:/projects/englishrussia/assets/images/headercolor.PNG");	
+	background-image: url("C:/projects/englishrussia/assets/images/headercolor.PNG");
+	padding-top: 20px;
+	padding-left: 30px;
+	color: yellow;
+	margin-top: -20px;
+	margin-left: -13px;
+	width: 1226px;
+	height: 160px;
+	border-bottom: 1px solid white;	
 		}
+
+.symbol {
+	margin-top: -110px;
+	margin-left: 150px;
+	}
+
+.centerimage {
+	margin-top: -140px;
+	margin-left: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.textcontent {
+	margin-top: -125px;
+	margin-left: 425px;
+}
 
 .navbar {
 	background-color: maroon;
-	width: 100%;
+	color: beige;
+	margin-top: 8px;
+	margin-left: -30px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	width: 1226px;
+	max-height: 0px;
+	height: 100%;
+	border-radius: 0 !important;
 		}
 
 .footer {
 	background-image: url("C:/projects/englishrussia/assets/images/footer.PNG");
+	color: yellow;
 	position: fixed;
-	width: 75%;
+	margin-top: -20px;
+	margin-left: -13px;
+	padding-left: 15px;
+	width: 1226px;
+	height: 90px;	
 	bottom: 0;
 		}
 
