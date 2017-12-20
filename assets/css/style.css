@@ -19,8 +19,8 @@
 		}
 
 .symbol {
-	margin-top: -110px;
-	margin-left: 150px;
+	margin-top: -140px;
+	margin-left: 170px;
 	}
 
 .centerimage {
@@ -79,7 +79,7 @@
 
 .navbar {
 	color: beige;
-	margin-top: 5px;
+	margin-top: 0px;
 	margin-left: -30px;
 	padding-top: 1px;
 	width: 1226px;
@@ -89,6 +89,7 @@
 #search {
 	background-color: maroon;
 	float: right;
+	margin-right: -17px;
 	margin-top: -1px;
 	height: 25px;
     width: 450px;
@@ -106,7 +107,7 @@
 #facebooknav {
 	background-color: maroon;
 	float: right;
-	margin-right: 578px;
+	margin-right: 561px;
 	margin-top: -25px;
 	height: 25px;
     width: 130px;
@@ -115,7 +116,7 @@
 #youtube {
 	background-color: maroon;
 	float: right;
-	margin-right: 707px;
+	margin-right: 690px;
 	margin-top: -25px;
 	height: 25px;
     width: 130px;
@@ -124,7 +125,7 @@
 #about {
 	background-color: maroon;
 	float: right;
-	margin-right: 835px;
+	margin-right: 819px;
 	margin-top: -25px;
 	height: 25px;
     width: 130px;
@@ -133,7 +134,7 @@
 #login {
 	background-color: maroon;
 	float: right;
-	margin-right: 965px;
+	margin-right: 949px;
 	margin-top: -25px;
 	height: 25px;
     width: 130px;
@@ -142,14 +143,51 @@
 #home {
 	background-color: maroon;
 	margin-top: -1px;
-	margin-left: -2px;
+	margin-left: 15px;
 	height: 25px;
     width: 130px;
 	}
 
 .article1 {
-	margin-top: -25px;
-	margin-left: -15px;
+	margin-top: -27px;
+	margin-left: 2px;
+	font: 13px tahoma;
+	font-weight: bold;
+	}
+
+.article2 {
+	margin-top: -27px;
+	margin-left: 2px;
+	font: 13px tahoma;
+	font-weight: bold;
+	}
+
+.article3 {
+	margin-top: -27px;
+	margin-left: 2px;
+	font: 13px tahoma;
+	font-weight: bold;
+	}
+
+.article4 {
+	margin-top: -27px;
+	margin-left: 2px;
+	font: 13px tahoma;
+	font-weight: bold;
+	}
+
+.article5 {
+	margin-top: -27px;
+	margin-left: 2px;
+	font: 13px tahoma;
+	font-weight: bold;
+	}
+
+.article6 {
+	margin-top: -27px;
+	margin-left: 2px;
+	font: 13px tahoma;
+	font-weight: bold;
 	}
 
 .footer {
@@ -157,9 +195,10 @@
 	color: yellow;
 	position: relative;
 	margin-top: -20px;
-	margin-left: -13px;
+	margin-left: -15px;
+	padding-top: 5px;
 	padding-left: 15px;
-	width: 1226px;
+	width: 1227px;
 	height: 90px;	
 	bottom: 0;
 		}
