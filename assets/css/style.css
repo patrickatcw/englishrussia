@@ -1,13 +1,9 @@
 
 .container {
-	background-color: beige;
-	min-width: 80%;
+	background-color: #dbd7cc;
+	min-width: 80.8%;
 	min-height: 100%;
-	position: fixed;
-	top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    height: auto;
 		}
 
 .header {
@@ -82,9 +78,8 @@
 	}
 
 .navbar {
-	background-color: maroon;
 	color: beige;
-	margin-top: 11px;
+	margin-top: 5px;
 	margin-left: -30px;
 	padding-top: 1px;
 	width: 1226px;
@@ -92,38 +87,75 @@
 		}
 
 #search {
-float: right;
-}
+	background-color: maroon;
+	float: right;
+	margin-top: -1px;
+	height: 25px;
+    width: 450px;
+	}
 
 #join {
-float: right;
-}
+	background-color: maroon;
+	float: right;
+	margin-right: -1px;
+	margin-top: -1px;
+	height: 25px;
+    width: 130px;
+	}
 
 #facebooknav {
-float: right;
-}
+	background-color: maroon;
+	float: right;
+	margin-right: 578px;
+	margin-top: -25px;
+	height: 25px;
+    width: 130px;
+	}
 
 #youtube {
-float: right;
-}
+	background-color: maroon;
+	float: right;
+	margin-right: 707px;
+	margin-top: -25px;
+	height: 25px;
+    width: 130px;
+	}
 
 #about {
-float: right;
-margin-right: 100px;
-}
+	background-color: maroon;
+	float: right;
+	margin-right: 835px;
+	margin-top: -25px;
+	height: 25px;
+    width: 130px;
+	}
 
 #login {
-float: right;
-margin-right: 384px;
-}
+	background-color: maroon;
+	float: right;
+	margin-right: 965px;
+	margin-top: -25px;
+	height: 25px;
+    width: 130px;
+	}
 
 #home {
-}
+	background-color: maroon;
+	margin-top: -1px;
+	margin-left: -2px;
+	height: 25px;
+    width: 130px;
+	}
+
+.article1 {
+	margin-top: -25px;
+	margin-left: -15px;
+	}
 
 .footer {
 	background-image: url("C:/projects/englishrussia/assets/images/footer.PNG");
 	color: yellow;
-	position: fixed;
+	position: relative;
 	margin-top: -20px;
 	margin-left: -13px;
 	padding-left: 15px;
