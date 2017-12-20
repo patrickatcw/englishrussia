@@ -87,12 +87,38 @@
 	margin-top: 11px;
 	margin-left: -30px;
 	padding-top: 1px;
-	padding-bottom: 1px;
 	width: 1226px;
-	max-height: 0px;
-	height: 100%;
 	border-radius: 0 !important;
 		}
+
+#search {
+float: right;
+}
+
+#join {
+float: right;
+}
+
+#facebooknav {
+float: right;
+}
+
+#youtube {
+float: right;
+}
+
+#about {
+float: right;
+margin-right: 100px;
+}
+
+#login {
+float: right;
+margin-right: 384px;
+}
+
+#home {
+}
 
 .footer {
 	background-image: url("C:/projects/englishrussia/assets/images/footer.PNG");
