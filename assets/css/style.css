@@ -10,12 +10,12 @@
 	background-image: url("C:/projects/englishrussia/assets/images/headercolor.PNG");
 	padding-top: 20px;
 	padding-left: 30px;
+	font-family: Georgia,"Times New Roman",Times,serif;
 	color: yellow;
 	margin-top: -20px;
 	margin-left: -13px;
 	width: 1226px;
-	height: 160px;
-	border-bottom: 1px solid white;	
+	height: 160px;	
 		}
 
 .symbol {
@@ -33,6 +33,8 @@
 .textcontent {
 	margin-top: -125px;
 	margin-left: 745px;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: yellow;
 	}
 
 .info {
@@ -153,6 +155,7 @@
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
+	border-bottom: 1px solid #818181;
 	}
 
 .article2 {
@@ -160,6 +163,7 @@
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
+	border-bottom: 1px solid #818181;
 	}
 
 .article3 {
@@ -167,6 +171,7 @@
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
+	border-bottom: 1px solid #818181;
 	}
 
 .article4 {
@@ -174,6 +179,7 @@
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
+	border-bottom: 1px solid #818181;
 	}
 
 .article5 {
@@ -181,6 +187,7 @@
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
+	border-bottom: 1px solid #818181;
 	}
 
 .article6 {
@@ -188,20 +195,68 @@
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
+	border-bottom: 1px solid #818181;
 	}
+
+.col-md-1 {
+	border-right: solid;
+	border-width: 1px;
+		}
+
+.categories {
+	text-align: center;
+	margin-left: -55px;
+	margin-top: -20px;
+	border-top: solid;
+	border-width: 1px;
+	border-bottom: double;
+		}
+
+.archive {
+	text-align: center;
+	margin-left: -55px;
+	border-bottom: double;
+		}
+
+.col-md-3 {
+	margin-top: -10px;
+		}
+
+.randposts {
+	background-image: url("C:/projects/englishrussia/assets/images/black.jpg");
+	height: 50px;
+    width: 270px;
+	text-align: center;
+	padding-top: 8px;
+	margin-top: -10px;
+	color: white;
+		}
+
+.popweek {
+	text-align: center;
+	border-bottom: double;
+		}
+
+.trending {
+	margin-top: -15px;
+		}
+
+.pagenav {
+	border-top: groove;
+	position: fixed;
+		}
 
 .footer {
 	background-image: url("C:/projects/englishrussia/assets/images/footer.PNG");
 	color: yellow;
-	position: relative;
-	margin-top: -20px;
+	position: fixed;
+	bottom: 0;
 	margin-left: -15px;
 	padding-top: 5px;
 	padding-left: 15px;
 	width: 1227px;
 	height: 90px;	
-	bottom: 0;
-		}
+	}
 
 
 
