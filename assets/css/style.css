@@ -243,20 +243,20 @@
 
 .pagenav {
 	border-top: groove;
-	position: fixed;
+	border-bottom: -5px;
 		}
 
 .footer {
 	background-image: url("C:/projects/englishrussia/assets/images/footer.PNG");
 	color: yellow;
-	position: fixed;
 	bottom: 0;
-	margin-left: -15px;
+	margin-left: 146px;
 	padding-top: 5px;
 	padding-left: 15px;
 	width: 1227px;
 	height: 90px;	
 	}
+
 
 
 
