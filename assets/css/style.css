@@ -88,6 +88,23 @@
 	border-radius: 0 !important;
 		}
 
+#rss {
+	background-color: #5a3113;
+	margin-right: -22px;
+}
+
+#email {
+	background-color: #5a3113;
+}
+
+#facebook {
+	background-color: #5a3113;
+}
+
+#twitter {
+	background-color: #5a3113;
+}
+
 #search {
 	background-color: maroon;
 	float: right;
