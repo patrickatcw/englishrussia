@@ -214,19 +214,35 @@
 	border-width: 1px;
 		}
 
-.categories {
-	text-align: center;
-	margin-left: -55px;
-	margin-top: -20px;
+.cattitle {
 	border-top: solid;
+	margin-top: -25px;
+	margin-left: -42px;
 	border-width: 1px;
 	border-bottom: double;
+	}
+
+.categories {
+	margin-left: -55px;
+	margin-top: 5px;
+	list-style-type: none;
+	font-size: 11px;
+	line-height: 22px;
 		}
 
+.arctitle {
+	margin-left: -35px;
+	}
+
 .archive {
-	text-align: center;
 	margin-left: -55px;
+	margin-top: 5px;
+	padding-top: 5px;
+	border-top: double;
 	border-bottom: double;
+	list-style-type: none;
+	font-size: 11px;
+	line-height: 22px;
 		}
 
 .col-md-3 {
