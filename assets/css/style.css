@@ -7,7 +7,7 @@
 		}
 
 .header {
-	background-image: url("C:/projects/englishrussia/assets/images/headercolor.PNG");
+	background-image: url("../../assets/images/headercolor.PNG");
 	padding-top: 20px;
 	padding-left: 30px;
 	font-family: Georgia,"Times New Roman",Times,serif;
@@ -21,63 +21,64 @@
 .symbol {
 	margin-top: -140px;
 	margin-left: 170px;
-	}
+		}
 
 .centerimage {
 	margin-top: -140px;
 	margin-left: 350px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	}
+		}
 
 .textcontent {
 	margin-top: -125px;
 	margin-left: 745px;
 	font-family: Georgia,"Times New Roman",Times,serif;
 	color: yellow;
-	}
+		}
 
 .info {
 	margin-top: -120px;
 	margin-left: 940px;
-	}
+		}
 
 .rss {
 	margin-top: 15px;
 	margin-right: 80px;
 	padding: 2;
 	float: right;
-	}
+		}
 
 .email {
 	margin-top: 15px;
 	padding: 2;
 	float: right;
-	}
+		}
 
 .facebook {
 	margin-top: 15px;
 	padding: 2;
  	float: right;
-	}
+		}
 
 .twitter {
 	margin-top: 15px;
 	padding: 2;
 	float: right;
-	}
+		}
 
 .words {
 	color: yellow;
 	margin-top: 45px;
 	margin-left: 1000px;
-	}
+		}
 
-.date {
+#date {
+	font-size: 9px;
 	color: yellow;
-	margin-top: -4px;
-	margin-left: 1020px;
-	}
+	margin-top: -5px;
+	margin-left: 930px;
+		}
 
 .navbar {
 	color: beige;
@@ -91,19 +92,19 @@
 #rss {
 	background-color: #5a3113;
 	margin-right: -22px;
-}
+	}
 
 #email {
 	background-color: #5a3113;
-}
+	}
 
 #facebook {
 	background-color: #5a3113;
-}
+	}
 
 #twitter {
 	background-color: #5a3113;
-}
+	}
 
 #search {
 	background-color: maroon;
@@ -121,7 +122,7 @@
 	margin-top: -1px;
 	height: 25px;
     width: 130px;
-	}
+		}
 
 #facebooknav {
 	background-color: maroon;
@@ -130,7 +131,7 @@
 	margin-top: -25px;
 	height: 25px;
     width: 130px;
-	}
+		}
 
 #youtube {
 	background-color: maroon;
@@ -139,7 +140,7 @@
 	margin-top: -25px;
 	height: 25px;
     width: 130px;
-	}
+		}
 
 #about {
 	background-color: maroon;
@@ -148,7 +149,7 @@
 	margin-top: -25px;
 	height: 25px;
     width: 130px;
-	}
+		}
 
 #login {
 	background-color: maroon;
@@ -157,7 +158,7 @@
 	margin-top: -25px;
 	height: 25px;
     width: 130px;
-	}
+		}
 
 #home {
 	background-color: maroon;
@@ -165,49 +166,49 @@
 	margin-left: 15px;
 	height: 25px;
     width: 130px;
-	}
+		}
 
 .article1 {
 	margin-top: -27px;
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
-	}
+		}
 
 .article2 {
 	margin-top: -27px;
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
-	}
+		}
 
 .article3 {
 	margin-top: -27px;
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
-	}
+		}
 
 .article4 {
 	margin-top: -27px;
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
-	}
+		}
 
 .article5 {
 	margin-top: -27px;
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
-	}
+		}
 
 .article6 {
 	margin-top: -27px;
 	margin-left: 2px;
 	font: 13px tahoma;
 	font-weight: bold;
-	}
+		}
 
 .col-md-1 {
 	border-right: solid;
@@ -220,7 +221,7 @@
 	margin-left: -42px;
 	border-width: 1px;
 	border-bottom: double;
-	}
+		}
 
 .categories {
 	margin-left: -55px;
@@ -232,7 +233,7 @@
 
 .arctitle {
 	margin-left: -35px;
-	}
+		}
 
 .archive {
 	margin-left: -55px;
@@ -250,7 +251,7 @@
 		}
 
 .randposts {
-	background-image: url("C:/projects/englishrussia/assets/images/black.jpg");
+	background-image: url("../../assets/images/black.jpg");
 	height: 50px;
     width: 270px;
 	text-align: center;
@@ -265,6 +266,8 @@
 		}
 
 .trending {
+	height: 160px;
+	width: 255px;
 	margin-top: -15px;
 		}
 
@@ -274,7 +277,7 @@
 		}
 
 .footer {
-	background-image: url("C:/projects/englishrussia/assets/images/footer.PNG");
+	background-image: url("../../assets/images/footer.PNG");
 	color: yellow;
 	bottom: 0;
 	margin-left: 146px;
@@ -282,7 +285,7 @@
 	padding-left: 15px;
 	width: 1227px;
 	height: 90px;	
-	}
+		}
 
 
 

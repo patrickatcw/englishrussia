@@ -15,12 +15,12 @@ $("#about").on('click', function()
 
 $("#youtube").on('click', function()   
 	 {
-		window.location.href= 'https://www.youtube.com/user/englishrussiatv';
+		window.open('https://www.youtube.com/user/englishrussiatv');
 			});
 
 $("#facebooknav").on('click', function()   
 	 {
-		window.location.href= 'https://www.facebook.com/English-Russia-219469644747681/';
+		window.open('https://www.facebook.com/English-Russia-219469644747681/');
 			});
 
 $("#join").on('click', function()   
@@ -28,19 +28,9 @@ $("#join").on('click', function()
 		window.location.href= 'http:englishrussia.com/register-3/';
 			});
 
-$("#twitter").on('click', function()   
-	 {
-		window.location.href= 'https://twitter.com/englishrussia1';
-			});
-
-$("#facebook").on('click', function()   
-	 {
-		window.location.href= 'https://www.facebook.com/English-Russia-219469644747681/';
-			});
-
 $("#email").on('click', function()   
 	 {
-		window.location.href= 'https://twitter.com/englishrussia/#';
+		window.location.href= 'https://englishrussia.com/#';
 			});
 
 $("#rss").on('click', function()   
@@ -164,6 +154,9 @@ function arcgen() {
 		}	
 	};
 arcgen();
+
+var d = new Date();
+        document.getElementById("date").innerHTML = new Date;
 
 
 
