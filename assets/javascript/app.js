@@ -38,36 +38,6 @@ $("#rss").on('click', function()
 		window.location.href= 'http://feeds.feedburner.com/englishrussia/GrPQ';
 			});
 
-// $("#plane").on('click', function()   
-// 	 {
-// 		window.location.href= 'http://englishrussia.com/2015/03/24/super-luxurious-russian-presidents-new-airplane-interiors/';
-// 			});
-
-// $("#train").on('click', function()   
-// 	 {
-// 		window.location.href= 'http://englishrussia.com/2014/05/14/the-hydro-dam-tram/';
-// 			});
-
-// $("#engine").on('click', function()   
-// 	 {
-// 		window.location.href= 'http://englishrussia.com/2009/09/21/an-engine-replacement/';
-// 			});
-
-// $("#milpow").on('click', function()   
-// 	 {
-// 		window.location.href= 'http://englishrussia.com/2014/01/15/the-last-breath-of-the-soviet-military-power/';
-// 			});
-
-// $("#mig").on('click', function()   
-// 	 {
-// 		window.location.href= 'http://englishrussia.com/2008/10/20/the-mig-story/';
-// 			});
-
-// $("#sausage").on('click', function()   
-// 	 {
-// 		window.location.href= 'http://englishrussia.com/2014/03/11/sausage-delivery-moldavian-way/';
-// 			});
-
 var article1 = {artimage:"assets/images/article1.jpg", arttext:"assets/images/art1text.PNG", 
 link:"http://englishrussia.com/2017/12/19/soviet-happiness-photos-of-soviet-people-happily-spending-their-free-time/"};
 
@@ -87,7 +57,6 @@ var article6 = {artimage:"assets/images/article6.jpg", arttext:"assets/images/ar
 link:"http://englishrussia.com/2017/12/05/faces-of-war-chechnya-1999/"};
 
 var articles = [article1, article2, article3, article4, article5, article6];
-
 
 var plane = {trendimage:"assets/images/plane.PNG", title:"Russian President’s Plane",
 link:"http://englishrussia.com/2015/03/24/super-luxurious-russian-presidents-new-airplane-interiors/"};
@@ -140,6 +109,23 @@ var archive = ["December 2017", "November 2017", "October 2017", "September 2017
 				"May 2007", "April 2007", "March 2007", "February 2007", "January 2007", "December 2006", 
 				"November 2006", "October 2006", "September 2006", "August 2006"];
 
+function postgen() {
+	for (i = 0; i <randPosts.length; i++) {
+	var trendimage = $("<img>");
+	var href = $("<a>");
+	var title = $("<h6>");
+	trendimage.addClass("trendimage");
+	title.addClass("title");
+	trendimage.attr("src", randPosts[i].trendimage);
+	title.attr("src", randPosts[i].title);
+	href.attr("href", randPosts[i].link);
+	href.html(trendimage);
+	$(".trending").append(title);
+    $(".trending").append(href);
+    	}	
+	};
+postgen();				
+
 function artgen() {
 	for (i = 0; i <articles.length; i++) {
     var image = $("<img>");
@@ -156,23 +142,6 @@ function artgen() {
 		}	
 	};
 artgen();
-
-function postgen() {
-	for (i = 0; i <randPosts.length; i++) {
-	var trendimage = $("<img>");
-	var title = $("<h6>");
-	var href = $("<a>");
-	trendimage.addClass("trendimage");
-	title.addClass("title");
-	trendimage.attr("src", randPosts[i].trendimage);
-	title.attr("src", randPosts[i].title);
-	href.attr("href", randPosts[i].link);
-	href.html(trendimage);
-    $(".trending").append(href);
-    $(".trending").append(title);
-		}	
-	};
-postgen();
 
 function catgen() {
 	for (i = 0; i < categories.length; i++) {
