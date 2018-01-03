@@ -239,7 +239,13 @@
 .trending {
 	height: 160px;
 	width: 255px;
-	margin-top: -15px;
+	margin-top: -25px;
+		}
+
+.title {
+	}
+
+.trendimage {
 		}
 
 .pagenav {

@@ -117,11 +117,11 @@ function postgen() {
 	trendimage.addClass("trendimage");
 	title.addClass("title");
 	trendimage.attr("src", randPosts[i].trendimage);
-	title.attr("src", randPosts[i].title);
+	title.text(randPosts[i].title);
 	href.attr("href", randPosts[i].link);
 	href.html(trendimage);
+	$(".trending").append(href);
 	$(".trending").append(title);
-    $(".trending").append(href);
     	}	
 	};
 postgen();				
