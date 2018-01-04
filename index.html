@@ -86,10 +86,13 @@
     </div>
 
     <div class="navbar">
-        <button id="search">
-        <h6>SEARCH</h6>
-        </button>
-         
+        <div id="search">
+            <form method="get" id="searchform" action="http://englishrussia.com/"> 
+            <input type="text" value="Search..." name="s" id="s" onblur="if (this.value == '')  {this.value = 'Search...';}" onfocus="if (this.value == 'Search...') {this.value = '';}">
+            <input type="submit" value="">
+            </form>
+        </div>
+        
         <button id="join">
         <h6>JOIN THE CLUB</h6>
         </button>
