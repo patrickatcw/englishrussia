@@ -108,10 +108,10 @@
 
 #searchform {
 	float: right;
-	margin-right: -55px;
-	margin-top: -2px;
+	margin-right: -500px;
+	margin-top: -1px;
 	height: 10px;
-    width: 400px;
+    width: 800px;
 	}
 
 #search {
@@ -177,7 +177,7 @@
 		}
 
 .col-md-8 {
-	margin-top: -30px;
+	margin-top: -25px;
 	}
 
 .image {
@@ -198,9 +198,10 @@
 .cattitle {
 	border-top: solid;
 	margin-top: -25px;
-	margin-left: -42px;
+	margin-left: -45px;
 	border-width: 1px;
 	border-bottom: double;
+	padding-top: 3px;
 		}
 
 .categories {
